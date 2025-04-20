@@ -74,11 +74,6 @@ const HomePageEN = () => {
             <p>(Apr. 2025) NFC Card Reader-Based Attendance Management System</p>
             <p>(Jul. 2024) Personal Portfolio (This Page)</p>
             </section>
-
-            <section>
-            <h2>Contact</h2>
-            </section>
-
         </main>
 
         <Footer lang="en" />

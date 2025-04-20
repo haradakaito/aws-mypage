@@ -74,10 +74,6 @@ const HomePageJP = () => {
             <p>（2025.04）カードリーダー式勤怠管理システム</p>
             <p>（2024.07）マイページ</p>
             </section>
-
-            <section>
-            <h2>お問い合わせ</h2>
-            </section>
         </main>
 
         <Footer lang="jp" />
