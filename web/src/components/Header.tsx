@@ -30,6 +30,9 @@ const Header = ({ lang }: HeaderProps) => {
             <a href="https://www.instagram.com/muumin_burger/" target="_blank" rel="noopener noreferrer">
                 <img src="/assets/instagram.png" alt="Instagram" width="24" height="24" />
             </a>
+            <a href="https://note.com/maronist" target="_blank" rel="noopener noreferrer">
+                <img src="/assets/note.png" alt="Note" width="24" height="24" />
+            </a>
             </div>
         </header>
     );
