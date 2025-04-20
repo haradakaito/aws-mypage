@@ -1,8 +1,17 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import HomePageJP from "./pages/HomePageJP";
 import HomePageEN from "./pages/HomePageEN";
+import { useEffect } from "react";
 
 const App = () => {
+  // Update view count on component mount
+  useEffect(() => {
+    const baseUrl = process.env.REACT_APP_API_BASE_URL;
+    fetch(`${baseUrl}/view`, { method: "POST" }).catch((error) =>
+      console.error("View count update failed:", error)
+    );
+  }, []);
+  // Set the document title
   return (
     <BrowserRouter>
       <Routes>
