@@ -28,7 +28,7 @@ const HomePageJP = () => {
             <div className="top-bar">
                 <div className="page-view-card">
                     <span className="page-view-icon">👁️</span>
-                    <span className="page-view-label">訪問数：</span>
+                    <span className="page-view-label"></span>
                     <span className="page-view-number">{views !== null ? `${views} 回` : "取得中..."}</span>
                 </div>
 

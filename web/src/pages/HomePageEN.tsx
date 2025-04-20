@@ -28,7 +28,7 @@ const HomePageEN = () => {
             <div className="top-bar">
                 <div className="page-view-card">
                     <span className="page-view-icon">👁️</span>
-                    <span className="page-view-label">Views：</span>
+                    <span className="page-view-label"></span>
                     <span className="page-view-number">{views !== null ? `${views} 回` : "Loading..."}</span>
                 </div>
 
