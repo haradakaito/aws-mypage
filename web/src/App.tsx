@@ -12,13 +12,10 @@ const App = () => {
       fetch(`${baseUrl}/view`, { method: "POST" })
         .then(() => {
           sessionStorage.setItem("hasVisited", "true");
-          console.log("View count updated for this tab.");
         })
         .catch((err) => {
           console.error("Failed to update view count:", err);
         });
-    } else {
-      console.log("View count not updated (already counted for this tab).");
     }
   }, []);
 
