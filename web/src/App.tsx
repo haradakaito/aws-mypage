@@ -10,7 +10,7 @@ const App = () => {
         <Route path="/" element={<LoadingPage />} />
         <Route path="/jp" element={<HomePageJP />} />
         <Route path="/en" element={<HomePageEN />} />
-        <Route path="*" element={<Navigate to="/" />} />
+        {/* <Route path="*" element={<Navigate to="/" />} /> */}
       </Routes>
     </BrowserRouter>
   );

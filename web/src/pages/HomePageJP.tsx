@@ -1,4 +1,4 @@
-// src/pages/HomePageEN.tsx
+// src/pages/HomePageJP.tsx
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "../components/Header";
@@ -13,7 +13,6 @@ const HomePageJP = () => {
     useEffect(() => {
         const hasVisited = sessionStorage.getItem("hasVisited");
         if (!hasVisited) {
-            sessionStorage.setItem("hasVisited", "true");
             navigate("/");
         }
     }, [navigate]);
