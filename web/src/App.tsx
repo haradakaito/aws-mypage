@@ -13,8 +13,6 @@ const App = () => {
         .catch((err) => {
           console.error("Failed to update view count:", err);
         });
-    } else {
-      console.log("View count not updated (already counted for this tab).");
     }
   }, []);
 
