@@ -24,19 +24,10 @@ const HomePageJP = () => {
         <Header lang="jp" />
 
         <main>
-
-            <div className="top-bar">
-                <div className="page-view-card">
-                    <span className="page-view-icon">👁️</span>
-                    <span className="page-view-label"></span>
-                    <span className="page-view-number">{views !== null ? `${views} 回` : "取得中..."}</span>
-                </div>
-
-                <div className="language-switch">
-                    <a href="/en" className="lang-btn">
+            <div className="language-switch">
+                <a href="/en" className="lang-btn">
                     🌐 English
-                    </a>
-                </div>
+                </a>
             </div>
 
             <section>
