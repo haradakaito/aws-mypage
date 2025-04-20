@@ -25,17 +25,18 @@ const HomePageEN = () => {
 
         <main>
 
-            <div className="page-view-card">
-                <span className="page-view-icon">👁️</span>
-                <span className="page-view-label">累計訪問数：</span>
-                <span className="page-view-number">{views !== null ? `${views} 回` : "取得中..."}</span>
-            </div>
+            <div className="top-bar">
+                <div className="page-view-card">
+                    <span className="page-view-icon">👁️</span>
+                    <span className="page-view-label">Page View：</span>
+                    <span className="page-view-number">{views !== null ? `${views} 回` : "Loading..."}</span>
+                </div>
 
-
-            <div className="language-switch">
-                <a href="/jp" className="lang-btn">
+                <div className="language-switch">
+                    <a href="/jp" className="lang-btn">
                     🌐 日本語
-                </a>
+                    </a>
+                </div>
             </div>
 
             <section>
