@@ -10,13 +10,12 @@ const HomePageJP = () => {
     const views = usePageViews();
     const navigate = useNavigate();
 
-    useEffect(() => {
-        const hasVisited = sessionStorage.getItem("hasVisited");
-        if (!hasVisited) {
-        console.warn("Direct access denied: redirecting to /");
-        navigate("/");
-        }
-    }, [navigate]);
+    // useEffect(() => {
+    //     const hasVisited = sessionStorage.getItem("hasVisited");
+    //     if (!hasVisited) {
+    //     navigate("/");
+    //     }
+    // }, [navigate]);
 
     return (
         <div>
