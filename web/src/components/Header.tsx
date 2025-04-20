@@ -1,4 +1,6 @@
 // src/components/Header.tsx
+import "./Header.css";
+
 type HeaderProps = {
     lang: 'jp' | 'en';
 };

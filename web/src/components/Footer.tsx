@@ -1,4 +1,6 @@
 // src/components/Footer.tsx
+import "./Footer.css";
+
 type FooterProps = {
     lang: 'jp' | 'en';
 };
