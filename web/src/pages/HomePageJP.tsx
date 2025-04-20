@@ -13,7 +13,7 @@ const HomePageJP = () => {
     useEffect(() => {
         const hasVisited = sessionStorage.getItem("hasVisited");
         if (!hasVisited) {
-            navigate("/");
+            navigate("/", { replace: true });
         }
     }, [navigate]);
 

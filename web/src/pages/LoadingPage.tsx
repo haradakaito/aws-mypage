@@ -15,15 +15,15 @@ const LoadingPage = () => {
         fetch(`${baseUrl}/view`, { method: "POST" })
             .then(() => {
             console.log("POST complete");
-            navigate("/jp");
+            navigate("/jp", { replace: true });
             })
             .catch((err) => {
             console.error("POST failed", err);
-            navigate("/jp");
+            navigate("/jp", { replace: true });
             });
         } else {
         // 初回以外は直接/jpへ
-        navigate("/jp");
+        navigate("/jp", { replace: true });
         }
     }, [navigate]);
 
