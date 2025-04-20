@@ -14,7 +14,6 @@ useEffect(() => {
     const baseUrl = process.env.REACT_APP_API_BASE_URL;
     fetch(`${baseUrl}/view`, { method: "POST" })
         .then(() => {
-        console.log("POST complete");
         navigate("/jp", { replace: true });
         })
         .catch((err) => {
