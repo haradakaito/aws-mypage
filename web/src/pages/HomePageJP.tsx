@@ -8,18 +8,6 @@ import { Link } from "react-router-dom";
 const HomePageJP = () => {
     const views = usePageViews();
 
-    useEffect(() => {
-        const key = "hasVisitedJP";
-        if (!sessionStorage.getItem(key)) {
-            sessionStorage.setItem(key, "true");
-
-            const baseUrl = process.env.REACT_APP_API_BASE_URL;
-            fetch(`${baseUrl}/view`, { method: "POST" })
-            .then(() => console.log("View count incremented (JP page)"))
-            .catch((err) => console.error("Failed to increment view:", err));
-        }
-    }, []);
-
     return (
         <div>
         <Header lang="jp" />
