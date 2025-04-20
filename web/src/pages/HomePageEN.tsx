@@ -121,7 +121,7 @@ const HomePageEN = () => {
                         rel="noopener noreferrer"
                         className="article-link"
                     >
-                        Read Article →
+                        📖 Read Article
                     </a>
                     </div>
 
@@ -135,7 +135,7 @@ const HomePageEN = () => {
                         rel="noopener noreferrer"
                         className="article-link"
                     >
-                        Read Article →
+                        📖 Read Article
                     </a>
                     </div>
 
@@ -149,7 +149,7 @@ const HomePageEN = () => {
                         rel="noopener noreferrer"
                         className="article-link"
                     >
-                        Read Article →
+                        📖 Read Article
                     </a>
                     </div>
 

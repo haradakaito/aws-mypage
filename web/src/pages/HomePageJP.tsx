@@ -74,7 +74,7 @@ const HomePageJP = () => {
             <section>
                 <h2>制作物</h2>
                 <p>
-                    （2025.04）カードリーダー式勤怠管理システム　
+                    （2025.04）カードリーダー式勤怠管理システム
                     <a
                     href="https://github.com/haradakaito/AttendanceManagementSystem"
                     target="_blank"
@@ -85,7 +85,7 @@ const HomePageJP = () => {
                     </a>
                 </p>
                 <p>
-                    （2024.07）マイページ　
+                    （2024.07）マイページ
                     <a
                     href="https://github.com/haradakaito/aws-mypage"
                     target="_blank"
@@ -120,7 +120,7 @@ const HomePageJP = () => {
                         rel="noopener noreferrer"
                         className="article-link"
                     >
-                        記事を読む →
+                        📖 記事を読む
                     </a>
                 </div>
 
@@ -134,7 +134,7 @@ const HomePageJP = () => {
                         rel="noopener noreferrer"
                         className="article-link"
                     >
-                        記事を読む →
+                        📖 記事を読む
                     </a>
                 </div>
 
@@ -148,7 +148,7 @@ const HomePageJP = () => {
                         rel="noopener noreferrer"
                         className="article-link"
                     >
-                        記事を読む →
+                        📖 記事を読む
                     </a>
                 </div>
             </div>
