@@ -7,7 +7,6 @@ import { usePageViews } from "../hooks/usePageViews";
 import { Link } from "react-router-dom";
 
 const HomePageJP = () => {
-    const views = usePageViews();
     const navigate = useNavigate();
 
     // useEffect(() => {
@@ -38,6 +37,8 @@ const HomePageJP = () => {
             });
         }
     }, [navigate]);
+
+    const views = usePageViews();
 
     return (
         <div>
