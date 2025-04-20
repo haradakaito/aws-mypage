@@ -24,7 +24,7 @@ const HomePageJP = () => {
         <Header lang="jp" />
 
         <main>
-            <p>現在の閲覧数：{views !== null ? `${views} 回` : "取得中..."}</p>
+            <p>累計閲覧数：{views !== null ? `${views} 回` : "取得中..."}</p>
 
             <Link to="/en">English version</Link>
 
