@@ -86,6 +86,56 @@ const HomePageEN = () => {
                 <span className="skill-badge">React</span>
             </div>
             </section>
+
+            <section>
+                <h2>Articles</h2>
+                <div className="article-list">
+
+                    <div className="article-card">
+                    <h3>[Interview Experience] How I Got an Offer from AWS</h3>
+                    <p className="article-meta">Published: April 20, 2025</p>
+                    <p className="article-desc">A detailed walkthrough of the entire selection process that led to a full-time offer from AWS as a new graduate.</p>
+                    <a
+                        href="https://note.com/maronist/n/n1a3952a76c88"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="article-link"
+                    >
+                        Read Article →
+                    </a>
+                    </div>
+
+                    <div className="article-card">
+                    <h3>[LaTeX] Operate Overleaf via VSCode!</h3>
+                    <p className="article-meta">Published: April 11, 2024</p>
+                    <p className="article-desc">Step-by-step instructions for integrating Overleaf with the VSCode development environment.</p>
+                    <a
+                        href="https://qiita.com/haradakaito/items/26ae779db23a1c862158"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="article-link"
+                    >
+                        Read Article →
+                    </a>
+                    </div>
+
+                    <div className="article-card">
+                    <h3>[Raspberry Pi] How to Set Up Nexmon</h3>
+                    <p className="article-meta">Published: April 10, 2024</p>
+                    <p className="article-desc">A complete guide to installing Nexmon on Raspberry Pi 3/4B and acquiring CSI data.</p>
+                    <a
+                        href="https://qiita.com/haradakaito/items/8e9ef1081b372509d4a1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="article-link"
+                    >
+                        Read Article →
+                    </a>
+                    </div>
+
+                </div>
+            </section>
+
         </main>
 
         <Footer lang="en" />

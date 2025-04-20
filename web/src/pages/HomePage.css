@@ -25,7 +25,7 @@ main a {
 
 .language-switch {
     text-align: right;
-    margin: 1rem 0;
+    margin: 0rem 0;
 }
 
 .lang-btn {
@@ -99,6 +99,52 @@ section p {
     background: linear-gradient(135deg, #d6edff, #e8f4ff);
 }
 
+.article-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.article-card {
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.article-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+.article-card h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.article-meta {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 0.75rem;
+}
+
+.article-desc {
+    margin-bottom: 0.5rem;
+}
+
+.article-link {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.article-link:hover {
+    text-decoration: underline;
+    color: #005fa3;
+}
 
 /* メディア対応（スマホ） */
 @media (max-width: 768px) {
