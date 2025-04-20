@@ -6,9 +6,19 @@ export const usePageViews = () => {
 
     useEffect(() => {
         const baseUrl = process.env.REACT_APP_API_BASE_URL;
+
         fetch(`${baseUrl}/view`)
-        .then((res) => res.json())
-        .then((data) => setViews(data.count))
+        .then((res) => {
+            if (!res.ok) {
+            throw new Error(`API response not OK: ${res.status}`);
+            }
+            return res.json();
+        })
+        .then((data) => {
+            console.log("Fetched data:", data);
+            const parsed = JSON.parse(data.body);
+            setViews(Number(parsed.count));
+        })
         .catch((error) => {
             console.error("Failed to fetch page views:", error);
             setViews(null);

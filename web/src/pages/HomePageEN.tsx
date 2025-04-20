@@ -2,20 +2,27 @@
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { usePageViews } from "../hooks/usePageViews";
 
 const HomePageEN = () => {
+    const views = usePageViews();
+
     return (
         <div>
         <Header lang="en" />
 
         <main>
             <h1>Welcome to the Home Page</h1>
+            <p>Page Views: {views !== null ? views : "Loading..."}</p>
+
             <Link to="/jp">日本語版</Link>
 
             <section>
             <h2>Education</h2>
             <p>Education details go here.</p>
             </section>
+
+            {/* 他のセクション省略 */}
 
             <section>
             <h2>Contact</h2>
@@ -27,4 +34,5 @@ const HomePageEN = () => {
         </div>
     );
 };
+
 export default HomePageEN;

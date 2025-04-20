@@ -6,7 +6,8 @@ import { useEffect } from "react";
 const App = () => {
   // Update view count on component mount
   useEffect(() => {
-    const baseUrl = process.env.REACT_APP_API_BASE_URL;
+    // const baseUrl = process.env.REACT_APP_API_BASE_URL;
+    const baseUrl = "https://dkv4lu7awj.execute-api.ap-northeast-1.amazonaws.com/v1"
     fetch(`${baseUrl}/view`, { method: "POST" }).catch((error) =>
       console.error("View count update failed:", error)
     );
