@@ -4,9 +4,7 @@ type FooterProps = {
 };
 const Footer = ({ lang }: FooterProps) => {
     const copyright =
-    lang === 'jp'
-        ? '© 2025 原田 海斗 All Rights Reserved.'
-        : '© 2025 Kaito Harada All Rights Reserved.';
+    lang === 'jp' ? '© 2025 原田 海斗 All Rights Reserved.' : '© 2025 Kaito Harada All Rights Reserved.';
 
     return (
     <footer>
