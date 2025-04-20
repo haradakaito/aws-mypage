@@ -15,7 +15,6 @@ export const usePageViews = () => {
             return res.json();
         })
         .then((data) => {
-            console.log("Fetched data:", data);
             const parsed = JSON.parse(data.body);
             setViews(Number(parsed.count));
         })

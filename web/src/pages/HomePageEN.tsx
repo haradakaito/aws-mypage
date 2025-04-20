@@ -22,8 +22,6 @@ const HomePageEN = () => {
             <p>Education details go here.</p>
             </section>
 
-            {/* 他のセクション省略 */}
-
             <section>
             <h2>Contact</h2>
             <p>Include your email or contact form here.</p>
