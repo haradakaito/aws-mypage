@@ -10,12 +10,13 @@ const HomePageJP = () => {
     const views = usePageViews();
     const navigate = useNavigate();
 
-    // useEffect(() => {
-    //     const hasVisited = sessionStorage.getItem("hasVisited");
-    //     if (!hasVisited) {
-    //     navigate("/");
-    //     }
-    // }, [navigate]);
+    useEffect(() => {
+        const hasVisited = sessionStorage.getItem("hasVisited");
+        if (!hasVisited) {
+            sessionStorage.setItem("hasVisited", "true");
+            navigate("/");
+        }
+    }, [navigate]);
 
     return (
         <div>
