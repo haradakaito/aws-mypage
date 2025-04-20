@@ -4,15 +4,24 @@ import HomePageEN from "./pages/HomePageEN";
 import { useEffect } from "react";
 
 const App = () => {
-  // Update view count on component mount
   useEffect(() => {
-    // const baseUrl = process.env.REACT_APP_API_BASE_URL;
-    const baseUrl = "https://dkv4lu7awj.execute-api.ap-northeast-1.amazonaws.com/v1"
-    fetch(`${baseUrl}/view`, { method: "POST" }).catch((error) =>
-      console.error("View count update failed:", error)
-    );
+    const hasVisitedThisTab = sessionStorage.getItem("hasVisited");
+
+    if (!hasVisitedThisTab) {
+      const baseUrl = process.env.REACT_APP_API_BASE_URL;
+      fetch(`${baseUrl}/view`, { method: "POST" })
+        .then(() => {
+          sessionStorage.setItem("hasVisited", "true");
+          console.log("View count updated for this tab.");
+        })
+        .catch((err) => {
+          console.error("Failed to update view count:", err);
+        });
+    } else {
+      console.log("View count not updated (already counted for this tab).");
+    }
   }, []);
-  // Set the document title
+
   return (
     <BrowserRouter>
       <Routes>
