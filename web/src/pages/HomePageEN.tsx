@@ -33,7 +33,6 @@ const HomePageEN = () => {
 
             <section>
             <h2>Education</h2>
-            <p>(Apr. 2017 – Mar. 2020) Toyama Prefectural Daimon High School, General Course (Information Track)</p>
             <p>(Apr. 2020 – Mar. 2024) Shizuoka University, School of Informatics, Department of Computer Science</p>
             <p>(Apr. 2024 – Mar. 2026) Graduate School of Integrated Science and Technology, Department of Informatics, Shizuoka University</p>
             </section>
