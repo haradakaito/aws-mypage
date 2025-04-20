@@ -23,6 +23,7 @@ const LoadingPage = () => {
             });
         } else {
         // 初回以外は直接/jpへ
+        sessionStorage.setItem("hasVisited", "true");
         navigate("/jp", { replace: true });
         }
     }, [navigate]);
