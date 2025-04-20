@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import HomePageJP from "./pages/HomePageJP";
-import HomePageEN from "./pages/HomePageEN";
+// import HomePageJP from "./pages/HomePageJP";
+// import HomePageEN from "./pages/HomePageEN";
 
 const App = () => {
   return (
