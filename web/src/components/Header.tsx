@@ -5,7 +5,6 @@ type HeaderProps = {
 const Header = ({ lang }: HeaderProps) => {
     const name        = lang === 'jp' ? '原田 海斗' : 'Kaito Harada';
     const affiliation = lang === 'jp' ? '静岡大学大学院 峰野研究室 修士2年' : "Shizuoka University Graduate School, Mineno Laboratory, Master's 2nd year.";
-    const viewsText   = lang === "jp" ? "現在の閲覧数：1234 回" : "Page Views: 1234";
 
     return (
         <header>
@@ -15,7 +14,6 @@ const Header = ({ lang }: HeaderProps) => {
             <div>
             <h1>{name}</h1>
             <p>{affiliation}</p>
-            <p>{viewsText}</p>
             </div>
             <div>
             <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
