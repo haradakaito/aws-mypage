@@ -39,6 +39,8 @@ main a {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+
+
 .lang-btn:hover {
     background-color: #005fa3;
     transform: scale(1.05);
@@ -93,6 +95,22 @@ section p {
     transition: transform 0.2s ease;
     white-space: nowrap;
 }
+
+.repo-link {
+    margin: 0;
+    display: inline;
+    font-size: 0.9rem;
+    color: #0077cc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    white-space: nowrap;
+}
+
+.repo-link:hover {
+    color: #005fa3;
+    text-decoration: underline;
+}
+
 
 .skill-badge:hover {
     transform: scale(1.05);

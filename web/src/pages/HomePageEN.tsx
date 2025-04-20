@@ -73,9 +73,29 @@ const HomePageEN = () => {
             </section>
 
             <section>
-            <h2>Projects</h2>
-            <p>(Apr. 2025) NFC Card Reader-Based Attendance Management System</p>
-            <p>(Jul. 2024) Personal Portfolio (This Page)</p>
+                <h2>Projects</h2>
+                <p>
+                    (Apr. 2025) NFC-based Attendance Management System&nbsp;
+                    <a
+                    href="https://github.com/haradakaito/AttendanceManagementSystem"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="repo-link"
+                    >
+                    🔗 GitHub
+                    </a>
+                </p>
+                <p>
+                    (Jul. 2024) Personal Portfolio (My Page)&nbsp;
+                    <a
+                    href="https://github.com/haradakaito/aws-mypage"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="repo-link"
+                    >
+                    🔗 GitHub
+                    </a>
+                </p>
             </section>
 
             <section>

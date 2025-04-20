@@ -76,7 +76,7 @@ const HomePageJP = () => {
                 <p>
                     （2025.04）カードリーダー式勤怠管理システム　
                     <a
-                    href="https://github.com/haradakaito/attendance-system"
+                    href="https://github.com/haradakaito/AttendanceManagementSystem"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="repo-link"
@@ -87,7 +87,7 @@ const HomePageJP = () => {
                 <p>
                     （2024.07）マイページ　
                     <a
-                    href="https://github.com/haradakaito/mypage"
+                    href="https://github.com/haradakaito/aws-mypage"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="repo-link"
