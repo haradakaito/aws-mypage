@@ -74,6 +74,32 @@ section p {
     color: #555;
 }
 
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 0.5rem;
+}
+
+.skill-badge {
+    background: linear-gradient(135deg, #e0f2ff, #f0f9ff);
+    color: #0077cc;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 1px solid #cce0f4;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+    white-space: nowrap;
+}
+
+.skill-badge:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #d6edff, #e8f4ff);
+}
+
+
 /* メディア対応（スマホ） */
 @media (max-width: 768px) {
     main {

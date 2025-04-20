@@ -3,12 +3,12 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { usePageViews } from "../hooks/usePageViews";
-import { Link } from "react-router-dom";
+// import { usePageViews } from "../hooks/usePageViews";
+// import { Link } from "react-router-dom";
 import "./HomePage.css"
 
 const HomePageEN = () => {
-    const views = usePageViews();
+    // const views = usePageViews();
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -76,6 +76,15 @@ const HomePageEN = () => {
             <h2>Projects</h2>
             <p>(Apr. 2025) NFC Card Reader-Based Attendance Management System</p>
             <p>(Jul. 2024) Personal Portfolio (This Page)</p>
+            </section>
+
+            <section>
+            <h2>Skills</h2>
+            <div className="skills-grid">
+                <span className="skill-badge">Python</span>
+                <span className="skill-badge">AWS</span>
+                <span className="skill-badge">React</span>
+            </div>
             </section>
         </main>
 

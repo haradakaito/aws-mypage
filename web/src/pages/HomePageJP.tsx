@@ -3,12 +3,12 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { usePageViews } from "../hooks/usePageViews";
-import { Link } from "react-router-dom";
+// import { usePageViews } from "../hooks/usePageViews";
+// import { Link } from "react-router-dom";
 import "./HomePage.css"
 
 const HomePageJP = () => {
-    const views = usePageViews();
+    // const views = usePageViews();
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -76,6 +76,20 @@ const HomePageJP = () => {
             <p>（2025.04）カードリーダー式勤怠管理システム</p>
             <p>（2024.07）マイページ</p>
             </section>
+
+            <section>
+            <h2>スキル</h2>
+            <div className="skills-grid">
+                <span className="skill-badge">Python</span>
+                <span className="skill-badge">AWS</span>
+                <span className="skill-badge">React</span>
+            </div>
+            </section>
+
+            <section>
+            <h2>投稿記事</h2>
+            </section>
+
         </main>
 
         <Footer lang="jp" />
