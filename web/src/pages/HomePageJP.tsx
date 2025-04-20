@@ -1,12 +1,30 @@
 // src/pages/HomePageJP.tsx
 import { Link } from "react-router-dom";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const HomePageJP = () => {
     return (
-        <div>
+    <div>
+        <Header lang="jp" />
+
+        <main>
         <h1>ホームページへようこそ</h1>
         <Link to="/en">English version</Link>
-        </div>
+
+        <section>
+            <h2>学歴</h2>
+            <p>ここに学歴を記述します。</p>
+        </section>
+
+        <section>
+            <h2>お問い合わせ</h2>
+            <p>お問い合わせフォームやメールアドレスを記述します。</p>
+        </section>
+        </main>
+
+        <Footer lang="jp" />
+    </div>
     );
 };
 
