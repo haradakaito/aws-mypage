@@ -10,11 +10,32 @@ const HomePageJP = () => {
     const views = usePageViews();
     const navigate = useNavigate();
 
+    // useEffect(() => {
+    //     const hasVisited = sessionStorage.getItem("hasVisited");
+    //     if (!hasVisited) {
+    //         sessionStorage.setItem("hasVisited", "true");
+    //         navigate("/", { replace: true });
+    //     }
+    // }, [navigate]);
+
     useEffect(() => {
         const hasVisited = sessionStorage.getItem("hasVisited");
+
         if (!hasVisited) {
-            sessionStorage.setItem("hasVisited", "true");
-            navigate("/", { replace: true });
+            const baseUrl = process.env.REACT_APP_API_BASE_URL;
+
+            // POSTでカウント
+            fetch(`${baseUrl}/view`, { method: "POST" })
+            .then(() => {
+                console.log("Page view incremented from direct access (JP)");
+                sessionStorage.setItem("hasVisited", "true");
+                // navigate("/", { replace: true });
+            })
+            .catch((err) => {
+                console.error("Failed to increment view count (JP):", err);
+                sessionStorage.setItem("hasVisited", "true");
+                // navigate("/", { replace: true });
+            });
         }
     }, [navigate]);
 
