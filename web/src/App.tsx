@@ -7,8 +7,6 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navigate to="/jp" />} />
-        <Route path="/jp" element={<HomePageJP />} />
-        <Route path="/en" element={<HomePageEN />} />
       </Routes>
     </BrowserRouter>
   );
