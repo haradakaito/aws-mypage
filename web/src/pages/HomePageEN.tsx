@@ -1,6 +1,5 @@
 // src/pages/HomePageEN.tsx
 import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { usePageViews } from "../hooks/usePageViews";
@@ -8,15 +7,6 @@ import { Link } from "react-router-dom";
 
 const HomePageEN = () => {
     const views = usePageViews();
-    const navigate = useNavigate();
-
-    useEffect(() => {
-        const hasVisited = sessionStorage.getItem("hasVisited");
-        if (!hasVisited) {
-        console.warn("Direct access denied: redirecting to /");
-        navigate("/");
-        }
-    }, [navigate]);
 
     return (
         <div>

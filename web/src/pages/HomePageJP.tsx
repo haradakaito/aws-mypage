@@ -1,6 +1,5 @@
 // src/pages/HomePageJP.tsx
 import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { usePageViews } from "../hooks/usePageViews";
@@ -8,15 +7,6 @@ import { Link } from "react-router-dom";
 
 const HomePageJP = () => {
     const views = usePageViews();
-    const navigate = useNavigate();
-
-    useEffect(() => {
-        const hasVisited = sessionStorage.getItem("hasVisited");
-        if (!hasVisited) {
-        console.warn("直接アクセス禁止：リダイレクトします");
-        navigate("/");
-        }
-    }, [navigate]);
 
     return (
         <div>
