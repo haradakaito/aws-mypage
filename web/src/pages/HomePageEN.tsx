@@ -26,7 +26,11 @@ const HomePageEN = () => {
         <main>
             <p>Page Views: {views !== null ? views : "Loading..."}</p>
 
-            <Link to="/jp">日本語版</Link>
+            <div className="language-switch">
+                <a href="/jp" className="lang-btn">
+                    🌐 日本語
+                </a>
+            </div>
 
             <section>
             <h2>Education</h2>

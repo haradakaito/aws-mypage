@@ -26,7 +26,11 @@ const HomePageJP = () => {
         <main>
             <p>累計閲覧数：{views !== null ? `${views} 回` : "取得中..."}</p>
 
-            <Link to="/en">English version</Link>
+            <div className="language-switch">
+                <a href="/en" className="lang-btn">
+                    🌐 English
+                </a>
+            </div>
 
             <section>
             <h2>学歴</h2>
