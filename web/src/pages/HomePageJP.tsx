@@ -111,20 +111,6 @@ const HomePageJP = () => {
             <div className="article-list">
 
                 <div className="article-card">
-                    <h3>【選考体験記】AWSから内定をもらうまでの全過程</h3>
-                    <p className="article-meta">投稿日：2025年04月20日</p>
-                    <p className="article-desc">新卒でAWSに内定を獲得するまでの全過程について解説</p>
-                    <a
-                        href="https://note.com/maronist/n/n1a3952a76c88"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="article-link"
-                    >
-                        📖 記事を読む
-                    </a>
-                </div>
-
-                <div className="article-card">
                     <h3>【LaTeX】VSCodeでOverleafを操作しよう！</h3>
                     <p className="article-meta">投稿日：2024年04月11日</p>
                     <p className="article-desc">統合開発環境「VSCode」で「Overleaf」を操作できるようにする手順を説明</p>
