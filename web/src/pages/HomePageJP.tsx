@@ -7,8 +7,6 @@ import { usePageViews } from "../hooks/usePageViews";
 const HomePageJP = () => {
     const views = usePageViews();
 
-    console.log(views)
-
     return (
         <div>
         <Header lang="jp" />
