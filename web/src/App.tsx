@@ -5,17 +5,16 @@ import { useEffect } from "react";
 
 const App = () => {
   useEffect(() => {
-    const hasVisitedThisTab = sessionStorage.getItem("hasVisited");
-
-    if (!hasVisitedThisTab) {
+    if (sessionStorage.getItem("hasVisited") === null) {
+      sessionStorage.setItem("hasVisited", "true");
       const baseUrl = process.env.REACT_APP_API_BASE_URL;
+
       fetch(`${baseUrl}/view`, { method: "POST" })
-        .then(() => {
-          sessionStorage.setItem("hasVisited", "true");
-        })
         .catch((err) => {
           console.error("Failed to update view count:", err);
         });
+    } else {
+      console.log("View count not updated (already counted for this tab).");
     }
   }, []);
 
