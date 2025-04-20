@@ -112,20 +112,6 @@ const HomePageEN = () => {
                 <div className="article-list">
 
                     <div className="article-card">
-                    <h3>[Interview Experience] How I Got an Offer from AWS</h3>
-                    <p className="article-meta">Published: April 20, 2025</p>
-                    <p className="article-desc">A detailed walkthrough of the entire selection process that led to a full-time offer from AWS as a new graduate.</p>
-                    <a
-                        href="https://note.com/maronist/n/n1a3952a76c88"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="article-link"
-                    >
-                        📖 Read Article
-                    </a>
-                    </div>
-
-                    <div className="article-card">
                     <h3>[LaTeX] Operate Overleaf via VSCode!</h3>
                     <p className="article-meta">Published: April 11, 2024</p>
                     <p className="article-desc">Step-by-step instructions for integrating Overleaf with the VSCode development environment.</p>
