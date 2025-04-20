@@ -6,7 +6,7 @@ type HeaderProps = {
 };
 const Header = ({ lang }: HeaderProps) => {
     const name        = lang === 'jp' ? '原田 海斗' : 'Kaito Harada';
-    const affiliation = lang === 'jp' ? '静岡大学大学院 峰野研究室 修士2年' : "Shizuoka University Graduate School, Mineno Laboratory, Master's 2nd year.";
+    const affiliation = lang === 'jp' ? '静岡大学大学院 修士2年' : "Shizuoka University Graduate School, Master's 2nd year.";
 
     return (
         <header>
@@ -29,9 +29,6 @@ const Header = ({ lang }: HeaderProps) => {
             </a>
             <a href="https://www.instagram.com/muumin_burger/" target="_blank" rel="noopener noreferrer">
                 <img src="/assets/instagram.png" alt="Instagram" width="24" height="24" />
-            </a>
-            <a href="https://note.com/maronist" target="_blank" rel="noopener noreferrer">
-                <img src="/assets/note.png" alt="Note" width="24" height="24" />
             </a>
             </div>
         </header>
