@@ -18,16 +18,16 @@ const Header = ({ lang }: HeaderProps) => {
             <p>{affiliation}</p>
             </div>
             <div>
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/haradakaito" target="_blank" rel="noopener noreferrer">
                 <img src="/assets/github.png" alt="GitHub" width="24" height="24" />
             </a>
-            <a href="https://qiita.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://qiita.com/haradakaito" target="_blank" rel="noopener noreferrer">
                 <img src="/assets/qiita.png" alt="Qiita" width="24" height="24" />
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/haradakaito/" target="_blank" rel="noopener noreferrer">
                 <img src="/assets/linkedin.png" alt="LinkedIn" width="24" height="24" />
             </a>
-            <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/muumin_burger/" target="_blank" rel="noopener noreferrer">
                 <img src="/assets/instagram.png" alt="Instagram" width="24" height="24" />
             </a>
             </div>
