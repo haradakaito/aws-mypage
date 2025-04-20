@@ -1,11 +1,24 @@
 // src/pages/HomePageEN.tsx
-import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { usePageViews } from "../hooks/usePageViews";
+import { Link } from "react-router-dom";
 
 const HomePageEN = () => {
     const views = usePageViews();
+
+    useEffect(() => {
+        const key = "hasVisitedEN";
+        if (!sessionStorage.getItem(key)) {
+            sessionStorage.setItem(key, "true");
+
+            const baseUrl = process.env.REACT_APP_API_BASE_URL;
+            fetch(`${baseUrl}/view`, { method: "POST" })
+            .then(() => console.log("View count incremented (EN page)"))
+            .catch((err) => console.error("Failed to increment view:", err));
+        }
+    }, []);
 
     return (
         <div>
