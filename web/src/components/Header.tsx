@@ -5,7 +5,7 @@ type HeaderProps = {
     lang: 'jp' | 'en';
 };
 const Header = ({ lang }: HeaderProps) => {
-    const name        = lang === 'jp' ? '原田 カイト' : 'Kaito Harada';
+    const name        = lang === 'jp' ? '原田 海斗' : 'Kaito Harada';
     const affiliation = lang === 'jp' ? '静岡大学大学院 修士2年' : "Shizuoka University Graduate School, Master's 2nd year.";
 
     return (
