@@ -27,9 +27,6 @@ const Header = ({ lang }: HeaderProps) => {
             <a href="https://www.linkedin.com/in/haradakaito/" target="_blank" rel="noopener noreferrer">
                 <img src="/assets/linkedin.png" alt="LinkedIn" width="24" height="24" />
             </a>
-            <a href="https://www.instagram.com/muumin_burger/" target="_blank" rel="noopener noreferrer">
-                <img src="/assets/instagram.png" alt="Instagram" width="24" height="24" />
-            </a>
             </div>
         </header>
     );
