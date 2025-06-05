@@ -12,7 +12,7 @@ useEffect(() => {
     sessionStorage.setItem("hasVisited", "true");
 
     const baseUrl = process.env.REACT_APP_API_BASE_URL;
-    fetch(`${baseUrl}/view`, { method: "POST" })
+    fetch(`${baseUrl}/v1/view`, { method: "POST" })
         .then(() => {
         navigate("/jp", { replace: true });
         })
