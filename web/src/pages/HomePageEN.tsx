@@ -66,8 +66,16 @@ const HomePageEN = () => {
 
             <section>
             <h2>Internships</h2>
-            <p>(Apr. 2025) Fujitsu Professional Internship (Paid, Onsite)
-                <a href="https://www.openbadge-global.com/ns/portal/openbadge/public/assertions/detail/YWovWWZmRFdpWEV3RWNCd3V4Y29zQT09">Detail</a>
+            <p>
+                (Apr. 2025) Fujitsu Professional Internship (Paid, Onsite)
+                <a
+                    href="https://www.openbadge-global.com/ns/portal/openbadge/public/assertions/detail/YWovWWZmRFdpWEV3RWNCd3V4Y29zQT09"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="badge-link"
+                    >
+                    🔗 LecoSバッジ
+                </a>
             </p>
             <p>(Nov. 2024) Fujifilm IT Internship Program (Hackathon-Style)</p>
             <p>(Sep. 2024) NAVITIME JAPAN – Engineering Experience Program</p>

@@ -96,7 +96,12 @@ section p {
     white-space: nowrap;
 }
 
-.repo-link {
+.skill-badge:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #d6edff, #e8f4ff);
+}
+
+.repo-link .badge-link {
     margin: 0;
     padding: 0.2rem 0.4rem;
     display: inline;
@@ -107,15 +112,9 @@ section p {
     white-space: nowrap;
 }
 
-.repo-link:hover {
+.repo-link:hover .badge-link:hover {
     color: #005fa3;
     text-decoration: underline;
-}
-
-
-.skill-badge:hover {
-    transform: scale(1.05);
-    background: linear-gradient(135deg, #d6edff, #e8f4ff);
 }
 
 .article-list {
