@@ -11,3 +11,5 @@
 |Webサーバー | APIサーバー         | データベース | アクセス制限 | 監視       |
 |----       |----                 |----         |----         |----
 | Amplify   | API Gateway, Lambda | DynamoDB    | WAF         | CloudWatch |
+
+※ 2025.06.05にRoute53のドメインを削除し，現在はAmplifyからの直接アクセスに変更しました
