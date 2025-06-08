@@ -74,7 +74,7 @@ const HomePageEN = () => {
                     rel="noopener noreferrer"
                     className="badge-link"
                     >
-                    🔗 LecoSバッジ
+                    🔗 LecoS Badge
                 </a>
             </p>
             <p>(Nov. 2024) Fujifilm IT Internship Program (Hackathon-Style)</p>
