@@ -65,7 +65,9 @@ const HomePageJP = () => {
 
             <section>
             <h2>インターンシップ</h2>
-            <p>（2025.04）富士通株式会社 Fujitsu Professional Internship【職場受入型・有償】</p>
+            <p>（2025.04）富士通株式会社 Fujitsu Professional Internship【職場受入型・有償】
+                <a href="https://www.openbadge-global.com/ns/portal/openbadge/public/assertions/detail/YWovWWZmRFdpWEV3RWNCd3V4Y29zQT09">詳細</a>
+            </p>
             <p>（2024.11）富士フイルム株式会社 情報系インターンシップ（体験型ハッカソン）</p>
             <p>（2024.09）株式会社ナビタイムジャパン エンジニア体験</p>
             </section>
