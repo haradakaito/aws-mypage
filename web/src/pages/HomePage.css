@@ -101,18 +101,18 @@ section p {
     background: linear-gradient(135deg, #d6edff, #e8f4ff);
 }
 
-.repo-link .badge-link {
+.repo-link, .badge-link {
     margin: 0;
     padding: 0.2rem 0.4rem;
     display: inline;
     font-size: 0.9rem;
     color: #0077cc;
-    text-decoration: underline;
+    text-decoration: none;
     transition: color 0.2s ease;
     white-space: nowrap;
 }
 
-.repo-link:hover .badge-link:hover {
+.repo-link:hover, .badge-link:hover {
     color: #005fa3;
     text-decoration: underline;
 }

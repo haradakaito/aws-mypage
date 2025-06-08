@@ -32,6 +32,11 @@ const HomePageEN = () => {
             </div>
 
             <section>
+            <h2>Work History</h2>
+            <p>(Apr. 2026 – ) ???</p>
+            </section>
+
+            <section>
             <h2>Education</h2>
             <p>(Apr. 2020 – Mar. 2024) Shizuoka University, School of Informatics, Department of Computer Science</p>
             <p>(Apr. 2024 – Mar. 2026) Graduate School of Integrated Science and Technology, Department of Informatics, Shizuoka University</p>
@@ -60,23 +65,24 @@ const HomePageEN = () => {
 
             <section>
             <h2>Certifications</h2>
-            <p>(Oct. 2024) Yumemi Passport</p>
-            <p>(Jul. 2024) TOEIC Score: 700</p>
-            </section>
-
-            <section>
-            <h2>Internships</h2>
             <p>
-                (Apr. 2025) Fujitsu Professional Internship (Paid, Onsite)
+                (Jun. 2025) Fujitsu Professional Internship 2024
                 <a
                     href="https://www.openbadge-global.com/ns/portal/openbadge/public/assertions/detail/YWovWWZmRFdpWEV3RWNCd3V4Y29zQT09"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="badge-link"
                     >
-                    🔗 LecoS Badge
+                    🔗Certification Badge
                 </a>
             </p>
+            <p>(Oct. 2024) Yumemi Passport</p>
+            <p>(Jul. 2024) TOEIC Score: 700</p>
+            </section>
+
+            <section>
+            <h2>Internships</h2>
+            <p>(Apr. 2025) Fujitsu Professional Internship (Paid, Onsite)</p>
             <p>(Nov. 2024) Fujifilm IT Internship Program (Hackathon-Style)</p>
             <p>(Sep. 2024) NAVITIME JAPAN – Engineering Experience Program</p>
             </section>
@@ -91,7 +97,7 @@ const HomePageEN = () => {
                     rel="noopener noreferrer"
                     className="repo-link"
                     >
-                    🔗 GitHub
+                    🔗GitHub
                     </a>
                 </p>
                 <p>
@@ -102,7 +108,7 @@ const HomePageEN = () => {
                     rel="noopener noreferrer"
                     className="repo-link"
                     >
-                    🔗 GitHub
+                    🔗GitHub
                     </a>
                 </p>
             </section>

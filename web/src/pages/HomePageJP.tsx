@@ -31,6 +31,11 @@ const HomePageJP = () => {
             </div>
 
             <section>
+            <h2>職歴</h2>
+            <p>（2026.04-）？？？</p>
+            </section>
+
+            <section>
             <h2>学歴</h2>
             <p>（2020.04-2024.03）静岡大学 情報学部 情報科学科</p>
             <p>（2024.04-2026.03）静岡大学大学院 総合科学技術研究科 情報学専攻</p>
@@ -59,23 +64,24 @@ const HomePageJP = () => {
 
             <section>
             <h2>資格</h2>
-            <p>（2024.10）ゆめみパスポート</p>
-            <p>（2024.07）TOEIC 700</p>
-            </section>
-
-            <section>
-            <h2>インターンシップ</h2>
             <p>
-                （2025.04）富士通株式会社 Fujitsu Professional Internship【職場受入型・有償】
+                （2025.06）Fujitsu Professional Internship 2024
                 <a
                     href="https://www.openbadge-global.com/ns/portal/openbadge/public/assertions/detail/YWovWWZmRFdpWEV3RWNCd3V4Y29zQT09"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="badge-link"
                     >
-                    🔗 LecoSバッジ
-                    </a>
+                    🔗認定バッジ
+                </a>
             </p>
+            <p>（2024.10）ゆめみパスポート</p>
+            <p>（2024.07）TOEIC 700</p>
+            </section>
+
+            <section>
+            <h2>インターンシップ</h2>
+            <p>（2025.04）富士通株式会社 Fujitsu Professional Internship【職場受入型・有償】</p>
             <p>（2024.11）富士フイルム株式会社 情報系インターンシップ（体験型ハッカソン）</p>
             <p>（2024.09）株式会社ナビタイムジャパン エンジニア体験</p>
             </section>
@@ -90,7 +96,7 @@ const HomePageJP = () => {
                     rel="noopener noreferrer"
                     className="repo-link"
                     >
-                    🔗 GitHub
+                    🔗GitHub
                     </a>
                 </p>
                 <p>
@@ -101,7 +107,7 @@ const HomePageJP = () => {
                     rel="noopener noreferrer"
                     className="repo-link"
                     >
-                    🔗 GitHub
+                    🔗GitHub
                     </a>
                 </p>
             </section>
